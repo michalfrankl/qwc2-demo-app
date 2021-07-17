@@ -34,8 +34,7 @@
     "textFont": "11pt sans-serif"
   },
   "importLayerUrlPresets": [
-      {"label": "Swisstopo WMTS", "value": "https://wmts10.geo.admin.ch/EPSG/2056/1.0.0/WMTSCapabilities.xml"},
-      {"label": "Test", "value": "https://ycas.ch/130_alkis_nrw.xml"}
+      {"label": "Swisstopo WMTS", "value": "https://wmts10.geo.admin.ch/EPSG/2056/1.0.0/WMTSCapabilities.xml"}
   ],
   "projections": [
     {
@@ -116,7 +115,6 @@
                   {"key": "Identify", "icon": "identify_region", "mode": "Region"},
                   {"key": "Measure", "icon": "measure"},
                   {"key": "Redlining", "icon": "draw"},
-                  {"key": "Editing", "icon": "editing"},
                   {"key": "DxfExport", "icon": "dxfexport"},
                   {"key": "RasterExport", "icon": "rasterexport"}
                 ]},
@@ -404,7 +402,8 @@
               "FI_LINE_TOLERANCE": 8,
               "FI_POLYGON_TOLERANCE": 4,
               "feature_count": 20,
-              "region_feature_count": 100
+              "region_feature_count": 100,
+              "with_maptip": true
             },
             "enableExport": true,
             "longAttributesDisplay": "wrap",
